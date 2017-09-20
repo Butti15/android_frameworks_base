@@ -181,4 +181,8 @@
 
   <!-- Custom clocks -->
   <java-symbol type="string" name="custom_clock_styles" />
+
+  <!-- Link volume notification -->
+  <java-symbol type="drawable" name="ic_audio_notification_new" />
+  <java-symbol type="drawable" name="ic_audio_notification_mute_new" />
 </resources>
