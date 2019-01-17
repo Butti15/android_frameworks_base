@@ -190,7 +190,7 @@ public class GamingModeTile extends QSTileImpl<BooleanState> {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.FH_SETTINGS;
+        return MetricsEvent.DIRTYTWEAKS;
     }
 
     @Override
