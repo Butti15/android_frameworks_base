@@ -16,18 +16,6 @@
 
 package android.provider;
 
-// Import all validators
-import static android.provider.SettingsValidators.ANY_INTEGER_VALIDATOR;
-import static android.provider.SettingsValidators.ANY_STRING_VALIDATOR;
-import static android.provider.SettingsValidators.BOOLEAN_VALIDATOR;
-import static android.provider.SettingsValidators.COMPONENT_NAME_VALIDATOR;
-import static android.provider.SettingsValidators.LENIENT_IP_ADDRESS_VALIDATOR;
-import static android.provider.SettingsValidators.LOCALE_VALIDATOR;
-import static android.provider.SettingsValidators.NON_NEGATIVE_INTEGER_VALIDATOR;
-import static android.provider.SettingsValidators.NULLABLE_COMPONENT_NAME_VALIDATOR;
-import static android.provider.SettingsValidators.PACKAGE_NAME_VALIDATOR;
-import static android.provider.SettingsValidators.URI_VALIDATOR;
-
 import android.Manifest;
 import android.annotation.IntDef;
 import android.annotation.IntRange;
