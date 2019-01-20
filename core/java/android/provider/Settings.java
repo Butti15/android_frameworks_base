@@ -4426,8 +4426,9 @@ public final class Settings {
          * @hide
          */
         public static final String ACCELEROMETER_ROTATION_ANGLES = "accelerometer_rotation_angles";
+        private static final Validator ACCELEROMETER_ROTATION_ANGLES_VALIDATOR = 
+                ANY_STRING_VALIDATOR;
         /** @hide */
-        private static final Validator ACCELEROMETER_ROTATION_ANGLES_VALIDATOR = ANY_STRING_VALIDATOR;
         /**
          * Whether the phone vibrates on call connect
          * @hide
