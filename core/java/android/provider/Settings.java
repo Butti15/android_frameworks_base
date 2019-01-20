@@ -4415,9 +4415,7 @@ public final class Settings {
          */
         public static final String ACCELEROMETER_ROTATION_ANGLES = "accelerometer_rotation_angles";
         /** @hide */
-        private static final Validator ACCELEROMETER_ROTATION_ANGLES_VALIDATOR =
-                ANY_STRING_VALIDATOR;
-
+        private static final Validator ACCELEROMETER_ROTATION_ANGLES_VALIDATOR = ANY_STRING_VALIDATOR;
         /**
          * Whether the phone vibrates on call connect
          * @hide
@@ -4823,7 +4821,7 @@ public final class Settings {
             STATUSBAR_CLOCK_AM_PM_STYLE,
             STATUSBAR_CLOCK_DATE_DISPLAY,
             STATUSBAR_CLOCK_DATE_STYLE,
-            STATUSBAR_CLOCK_DATE_FORMAT
+            STATUSBAR_CLOCK_DATE_FORMAT,
             ACCELEROMETER_ROTATION_ANGLES,
         };
 
