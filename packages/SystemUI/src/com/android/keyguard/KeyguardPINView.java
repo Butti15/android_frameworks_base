@@ -148,7 +148,7 @@ public class KeyguardPINView extends KeyguardPinBasedInputView {
                 view.setDigit(sNumbers.get(i));
             }
         }
-    }
+
         boolean quickUnlock = (Settings.System.getInt(getContext().getContentResolver(),
                 Settings.System.LOCKSCREEN_QUICK_UNLOCK_CONTROL, 0) == 1);
 
@@ -159,10 +159,8 @@ public class KeyguardPINView extends KeyguardPinBasedInputView {
                 }
             });
         } else {
-            mPasswordEntry.setQuickUnlockListener(null);
-
+            mPasswordEntry.setQuickUnlockListener(null);}
         }
-    }
 
     @Override
     public void showUsabilityHint() {
