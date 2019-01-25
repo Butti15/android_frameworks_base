@@ -139,12 +139,7 @@ public class GamingModeTile extends QSTileImpl<BooleanState> {
             newestState = AudioManager.RINGER_MODE_NORMAL;
             mAudioManager.setRingerModeInternal(newestState);
         }
-        // Media volume increased to the fullest
-        if (enabled) {
-            mAudioManager.setStreamVolume(AudioManager.STREAM_MUSIC, 60, 0); // 60 in the case "Music Volume Steps" have been set to 60 by user.
-        } else if (!enabled) {
-            mAudioManager.setStreamVolume(AudioManager.STREAM_MUSIC, 0, 0);
-        }
+
         // Show a toast
         if (enabled) {
             SysUIToast.makeText(mContext, mContext.getString(
